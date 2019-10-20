@@ -6,7 +6,7 @@ public class Chequing extends Account {
      * Class constructor
      * @param initialBalance first deposited balance by the user
      */
-    Chequing(double initialBalance) {
+    public Chequing(double initialBalance) {
         super("Chequing", new String[] {"Debit Card", "Cheques", "e-Transfer"}, initialBalance);
         this.setRunningFees(10);
     }
